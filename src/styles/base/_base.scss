@@ -17,6 +17,7 @@ input{
 }
 
 img{
+    border-radius: 1rem;
     display: block;
     max-width: 100%;
     filter: sepia(1);
@@ -32,7 +33,9 @@ img{
 }
 
 article{
-    border: 1px solid #fff;
+    border-radius: 1rem;
+    border: 1px solid lighten($color: $dark, $amount: 10);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.7);
     cursor: pointer;
     overflow: hidden;
     margin-bottom: 1rem;
