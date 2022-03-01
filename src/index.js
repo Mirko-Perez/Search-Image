@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import SearchImage from './SearchImage';
+import './styles/styles.scss'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SearchImage />
   </React.StrictMode>,
   document.getElementById('root')
 );
