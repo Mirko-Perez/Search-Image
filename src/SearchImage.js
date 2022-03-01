@@ -28,7 +28,7 @@ const  SearchImage= () => {
         
         >
           <Form>
-            <Field  name='search' type='text'/>
+            <Field  placeholder='search...' name='search' type='text'/>
           </Form>
         </Formik>
 
