@@ -9,7 +9,7 @@ const  SearchImage= () => {
     window.open(url)
   }
 
-  console.log({photos})
+  
   return (
     <div className="app">
       <header>
