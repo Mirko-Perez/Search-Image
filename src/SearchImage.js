@@ -3,10 +3,13 @@
 function SearchImage() {
   return (
     <div className="app">
-      <h1>Search image</h1>
-      <input name='name' type='text'/>
+      <header>
+        <h1 className='title'>Search image</h1>
+        <input autoComplete='off' name='name' type='text'/>
 
+      </header>
       <hr />
+
     </div>
   );
 }
