@@ -13,5 +13,28 @@ input{
     border-radius: 1rem;
     border-style: none;
     padding: .5rem 0.5rem;
+    outline: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    filter: sepia(1);
+    
+    &:hover{
+        filter: sepia(0);
+    }
+}
+
+.gallery{
+    columns: 5 100px;
     
 }
+
+article{
+    border: 1px solid #fff;
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
